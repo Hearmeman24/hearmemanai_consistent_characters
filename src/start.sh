@@ -286,9 +286,19 @@ fi
 echo "Config file setup complete!"
 echo "Default preview method updated to 'auto'"
 
-echo "Moving AntelopeV2 to the correct location"
-cd $NETWORK_VOLUME/ComfyUI/models/insightface/models/antelopev2/antelopev2 || echo "Failed moving AntelopeV2 to the correct location"
-mv * ./../ || echo "Failed moving AntelopeV2 to the correct location"
+echo "Downloading AntelopeV2"
+mkdir -p $NETWORK_VOLUME/ComfyUI/models/insightface/models
+cd $NETWORK_VOLUME/ComfyUI/models/insightface/models
+wget https://github.com/deepinsight/insightface/releases/download/v0.7/antelopev2.zip
+python3 -c "
+import zipfile
+import os
+with zipfile.ZipFile('antelopev2.zip', 'r') as zip_ref:
+    for member in zip_ref.infolist():
+        if not member.is_dir():
+            member.filename = os.path.basename(member.filename)
+            zip_ref.extract(member, '.')
+"
 
 URL="http://127.0.0.1:8188"
 echo "Starting ComfyUI"
