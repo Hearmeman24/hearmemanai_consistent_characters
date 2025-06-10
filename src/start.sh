@@ -101,9 +101,9 @@ download_model() {
 }
 
 if [ "$download_flux" == "true" ]; then
-  download_model "https://huggingface.co/realung/flux1-dev.safetensors/resolve/main/flux1-dev.safetensors" "$DIFFUSION_MODELS_DIR/flux1-dev.safetensors"
+  download_model "https://huggingface.co/lllyasviel/flux1_dev/resolve/main/flux1-dev-fp8.safetensors" "$DIFFUSION_MODELS_DIR/flux1-dev-fp8.safetensors"
   download_model "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors" "$TEXT_ENCODERS_DIR/clip_l.safetensors"
-  download_model "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors" "$TEXT_ENCODERS_DIR/t5xxl_fp16.safetensors"
+  download_model "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn_scaled.safetensors" "$TEXT_ENCODERS_DIR/t5xxl_fp8_e4m3fn_scaled.safetensors"
   download_model "https://huggingface.co/realung/flux1-dev.safetensors/resolve/main/ae.safetensors" "$VAE_DIR/ae.safetensors"
   download_model "https://huggingface.co/guozinan/PuLID/resolve/main/pulid_flux_v0.9.1.safetensors" "$PULID_DIR/pulid_flux_v0.9.1.safetensors"
   download_model "https://huggingface.co/Shakker-Labs/FLUX.1-dev-ControlNet-Union-Pro-2.0/resolve/main/diffusion_pytorch_model.safetensors" "$CONTROLNET_DIR/flux_union_controlnet_2.0.safetensors"
@@ -224,7 +224,7 @@ mkdir -p "$WORKFLOW_DIR"
 # Ensure the file exists in the current directory before moving it
 cd /
 
-SOURCE_DIR="/comfyui-sdxl/workflows"
+SOURCE_DIR="/hearmemanai_consistent_characters/workflows"
 
 # Ensure destination directory exists
 mkdir -p "$WORKFLOW_DIR"
