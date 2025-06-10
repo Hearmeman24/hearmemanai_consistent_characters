@@ -21,7 +21,7 @@ jobs:
       - run:
           name: Pre-pull cache image
           command: |
-            docker pull "docker.io/$DOCKERHUB_USER/comfyui-sdxl-template:buildcache" || true
+            docker pull "docker.io/$DOCKERHUB_USER/hearmemanai_consistent_chars:buildcache" || true
 
       - run:
           name: Log in to Docker Hub
@@ -32,7 +32,7 @@ jobs:
           name: Build & push with cache
           command: |
             TAG="${CIRCLE_TAG:-latest}"
-            IMG="docker.io/$DOCKERHUB_USER/comfyui-sdxl-template"
+            IMG="docker.io/$DOCKERHUB_USER/hearmemanai_consistent_chars"
 
             docker build \
               --progress=plain \
