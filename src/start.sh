@@ -286,6 +286,10 @@ fi
 echo "Config file setup complete!"
 echo "Default preview method updated to 'auto'"
 
+echo "Moving AntelopeV2 to the correct location"
+cd $NETWORK_VOLUME/ComfyUI/models/insightface/models/antelopev2/antelopev2 || echo "Failed moving AntelopeV2 to the correct location"
+mv * ./../ || echo "Failed moving AntelopeV2 to the correct location"
+
 URL="http://127.0.0.1:8188"
 echo "Starting ComfyUI"
 nohup python3 "$NETWORK_VOLUME/ComfyUI/main.py" --listen > "$NETWORK_VOLUME/comfyui_${RUNPOD_POD_ID}_nohup.log" 2>&1 &
