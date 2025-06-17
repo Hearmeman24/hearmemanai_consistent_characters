@@ -288,7 +288,7 @@ echo "Config file setup complete!"
 echo "Default preview method updated to 'auto'"
 
 echo "Downloading AntelopeV2"
-mkdir -p $NETWORK_VOLUME/ComfyUI/models/insightface/models
+mkdir -p INSIGHTFACE_DIR
 cd INSIGHTFACE_DIR
 wget https://github.com/deepinsight/insightface/releases/download/v0.7/antelopev2.zip
 python3 -c "
