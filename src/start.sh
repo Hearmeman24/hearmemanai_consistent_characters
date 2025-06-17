@@ -47,6 +47,7 @@ MODEL_WHITELIST_DIR="$NETWORK_VOLUME/ComfyUI/user/default/ComfyUI-Impact-Subpack
 DIFFUSION_MODELS_DIR="$NETWORK_VOLUME/ComfyUI/models/diffusion_models"
 TEXT_ENCODERS_DIR="$NETWORK_VOLUME/ComfyUI/models/text_encoders"
 VAE_DIR="$NETWORK_VOLUME/ComfyUI/models/vae"
+INSIGHTFACE_DIR="$NETWORK_VOLUME/ComfyUI/models/insightface/models"
 PULID_DIR="$NETWORK_VOLUME/ComfyUI/models/pulid"
 CONTROLNET_DIR="$NETWORK_VOLUME/ComfyUI/models/controlnet"
 
@@ -288,7 +289,7 @@ echo "Default preview method updated to 'auto'"
 
 echo "Downloading AntelopeV2"
 mkdir -p $NETWORK_VOLUME/ComfyUI/models/insightface/models
-cd $NETWORK_VOLUME/ComfyUI/models/insightface/models
+cd INSIGHTFACE_DIR
 wget https://github.com/deepinsight/insightface/releases/download/v0.7/antelopev2.zip
 python3 -c "
 import zipfile
@@ -299,6 +300,8 @@ with zipfile.ZipFile('antelopev2.zip', 'r') as zip_ref:
             member.filename = os.path.basename(member.filename)
             zip_ref.extract(member, '.')
 "
+mkdir INSIGHTFACE_DIR/antelopev2
+mv *.onnx INSIGHTFACE_DIR/antelopev2
 
 URL="http://127.0.0.1:8188"
 echo "Starting ComfyUI"
