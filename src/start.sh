@@ -288,8 +288,9 @@ echo "Config file setup complete!"
 echo "Default preview method updated to 'auto'"
 
 echo "Downloading AntelopeV2"
-mkdir -p INSIGHTFACE_DIR
-cd INSIGHTFACE_DIR
+mkdir -p "$INSIGHTFACE_DIR"
+echo "Created $INSIGHTFACE_DIR"
+cd "$INSIGHTFACE_DIR"
 wget https://github.com/deepinsight/insightface/releases/download/v0.7/antelopev2.zip
 python3 -c "
 import zipfile
@@ -300,8 +301,9 @@ with zipfile.ZipFile('antelopev2.zip', 'r') as zip_ref:
             member.filename = os.path.basename(member.filename)
             zip_ref.extract(member, '.')
 "
-mkdir INSIGHTFACE_DIR/antelopev2
-mv *.onnx INSIGHTFACE_DIR/antelopev2
+echo "Finished downloading antelope files"
+mkdir "$INSIGHTFACE_DIR/antelopev2"
+mv *.onnx "$INSIGHTFACE_DIR/antelopev2"
 
 URL="http://127.0.0.1:8188"
 echo "Starting ComfyUI"
