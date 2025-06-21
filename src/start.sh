@@ -41,6 +41,13 @@ else
     jupyter-lab --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token='' --NotebookApp.password='' --ServerApp.allow_origin='*' --ServerApp.allow_credentials=True --notebook-dir=/workspace &
 fi
 
+curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
+mv filebrowser /usr/local/bin/
+chmod +x /usr/local/bin/filebrowser
+filebrowser -d $NETWORK_VOLUME/filebrowser.db config init
+filebrowser -d $NETWORK_VOLUME/filebrowser.db users add $FB_USERNAME $FB_PASSWORD --perm.admin
+filebrowser -d $NETWORK_VOLUME/filebrowser.db -r $NETWORK_VOLUME -a 0.0.0.0 -p 8080 > "$NETWORK_VOLUME/filebrowser.log" 2>&1 &
+
 COMFYUI_DIR="$NETWORK_VOLUME/ComfyUI"
 WORKFLOW_DIR="$NETWORK_VOLUME/ComfyUI/user/default/workflows"
 MODEL_WHITELIST_DIR="$NETWORK_VOLUME/ComfyUI/user/default/ComfyUI-Impact-Subpack/model-whitelist.txt"
