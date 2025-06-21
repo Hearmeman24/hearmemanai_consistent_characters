@@ -1,8 +1,8 @@
 {
   "id": "0d96d67f-8b9d-460d-bd50-1bd5bc23b8a4",
   "revision": 0,
-  "last_node_id": 176,
-  "last_link_id": 283,
+  "last_node_id": 182,
+  "last_link_id": 289,
   "nodes": [
     {
       "id": 30,
@@ -54,7 +54,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 86,
+      "order": 91,
       "mode": 4,
       "inputs": [
         {
@@ -126,7 +126,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 94,
+      "order": 100,
       "mode": 4,
       "inputs": [
         {
@@ -168,7 +168,7 @@
         88
       ],
       "flags": {},
-      "order": 95,
+      "order": 101,
       "mode": 4,
       "inputs": [
         {
@@ -210,7 +210,7 @@
         200
       ],
       "flags": {},
-      "order": 78,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -252,7 +252,7 @@
         46
       ],
       "flags": {},
-      "order": 98,
+      "order": 104,
       "mode": 0,
       "inputs": [
         {
@@ -295,7 +295,7 @@
         258
       ],
       "flags": {},
-      "order": 101,
+      "order": 107,
       "mode": 0,
       "inputs": [
         {
@@ -327,7 +327,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 48,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -382,7 +382,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 87,
+      "order": 92,
       "mode": 4,
       "inputs": [
         {
@@ -463,7 +463,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 92,
+      "order": 97,
       "mode": 4,
       "inputs": [
         {
@@ -531,7 +531,7 @@
         "",
         "You are ChatGPT, a large language model trained by OpenAI. Answer as concisely as possible.",
         "gpt-4o",
-        996629175306224,
+        555164446496935,
         "randomize",
         1,
         "openai"
@@ -551,7 +551,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 84,
+      "order": 87,
       "mode": 4,
       "inputs": [
         {
@@ -734,7 +734,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 56,
+      "order": 59,
       "mode": 4,
       "inputs": [
         {
@@ -787,7 +787,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 77,
+      "order": 81,
       "mode": 4,
       "inputs": [
         {
@@ -828,7 +828,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 72,
+      "order": 76,
       "mode": 4,
       "inputs": [
         {
@@ -867,7 +867,7 @@
         110
       ],
       "flags": {},
-      "order": 47,
+      "order": 50,
       "mode": 4,
       "inputs": [
         {
@@ -949,7 +949,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 49,
+      "order": 52,
       "mode": 4,
       "inputs": [
         {
@@ -975,70 +975,6 @@
       ]
     },
     {
-      "id": 63,
-      "type": "JC_ExtraOptions",
-      "pos": [
-        -4485.4775390625,
-        1647.9066162109375
-      ],
-      "size": [
-        400,
-        736
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 7,
-      "mode": 4,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "extra_options",
-          "type": "JOYCAPTION_EXTRA_OPTIONS",
-          "links": [
-            134
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-joycaption",
-        "ver": "1.1.1",
-        "Node name for S&R": "JC_ExtraOptions",
-        "aux_id": "1038lab/ComfyUI-JoyCaption",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        true,
-        true,
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        true,
-        false,
-        false,
-        true,
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        true,
-        false,
-        false,
-        false,
-        false,
-        ""
-      ]
-    },
-    {
       "id": 94,
       "type": "SetNode",
       "pos": [
@@ -1052,7 +988,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 81,
+      "order": 85,
       "mode": 4,
       "inputs": [
         {
@@ -1093,7 +1029,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 75,
+      "order": 79,
       "mode": 4,
       "inputs": [
         {
@@ -1165,7 +1101,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 107,
+      "order": 113,
       "mode": 4,
       "inputs": [
         {
@@ -1204,7 +1140,7 @@
         46
       ],
       "flags": {},
-      "order": 112,
+      "order": 118,
       "mode": 4,
       "inputs": [
         {
@@ -1249,7 +1185,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 113,
+      "order": 119,
       "mode": 4,
       "inputs": [
         {
@@ -1290,7 +1226,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 73,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -1333,7 +1269,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1377,7 +1313,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 9,
+      "order": 8,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -1412,7 +1348,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 79,
+      "order": 83,
       "mode": 4,
       "inputs": [
         {
@@ -1454,7 +1390,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 91,
+      "order": 96,
       "mode": 4,
       "inputs": [
         {
@@ -1495,7 +1431,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 10,
+      "order": 9,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -1539,7 +1475,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 11,
+      "order": 10,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -1575,7 +1511,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 12,
+      "order": 11,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -1613,7 +1549,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 50,
+      "order": 53,
       "mode": 4,
       "inputs": [
         {
@@ -1654,7 +1590,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 13,
+      "order": 12,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -1689,7 +1625,7 @@
         58
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -1725,7 +1661,7 @@
         58
       ],
       "flags": {},
-      "order": 55,
+      "order": 58,
       "mode": 4,
       "inputs": [
         {
@@ -1765,7 +1701,7 @@
         58
       ],
       "flags": {},
-      "order": 53,
+      "order": 56,
       "mode": 4,
       "inputs": [
         {
@@ -1807,7 +1743,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 15,
+      "order": 14,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -1843,7 +1779,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 16,
+      "order": 15,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -1879,7 +1815,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 17,
+      "order": 16,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -1915,7 +1851,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 52,
+      "order": 55,
       "mode": 4,
       "inputs": [
         {
@@ -1959,7 +1895,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 46,
+      "order": 49,
       "mode": 4,
       "inputs": [
         {
@@ -2009,7 +1945,7 @@
         58
       ],
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2045,7 +1981,7 @@
         130
       ],
       "flags": {},
-      "order": 19,
+      "order": 18,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2086,7 +2022,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 20,
+      "order": 19,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2121,7 +2057,7 @@
         126
       ],
       "flags": {},
-      "order": 74,
+      "order": 78,
       "mode": 4,
       "inputs": [
         {
@@ -2189,7 +2125,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 109,
+      "order": 115,
       "mode": 4,
       "inputs": [
         {
@@ -2232,7 +2168,7 @@
         46
       ],
       "flags": {},
-      "order": 110,
+      "order": 116,
       "mode": 4,
       "inputs": [
         {
@@ -2277,7 +2213,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 108,
+      "order": 114,
       "mode": 4,
       "inputs": [
         {
@@ -2340,7 +2276,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 102,
+      "order": 108,
       "mode": 4,
       "inputs": [
         {
@@ -2378,7 +2314,7 @@
         442
       ],
       "flags": {},
-      "order": 111,
+      "order": 117,
       "mode": 4,
       "inputs": [
         {
@@ -2434,7 +2370,7 @@
       },
       "widgets_values": [
         true,
-        157927454028391,
+        661862567573896,
         "randomize",
         2.5
       ],
@@ -2453,7 +2389,7 @@
         106
       ],
       "flags": {},
-      "order": 93,
+      "order": 99,
       "mode": 4,
       "inputs": [
         {
@@ -2497,7 +2433,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 21,
+      "order": 20,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2534,7 +2470,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 22,
+      "order": 21,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2570,7 +2506,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 80,
+      "order": 84,
       "mode": 4,
       "inputs": [
         {
@@ -2611,7 +2547,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 104,
+      "order": 110,
       "mode": 4,
       "inputs": [
         {
@@ -2652,7 +2588,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 23,
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2686,7 +2622,7 @@
         304.8132019042969
       ],
       "flags": {},
-      "order": 99,
+      "order": 105,
       "mode": 4,
       "inputs": [
         {
@@ -2732,7 +2668,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 85,
+      "order": 88,
       "mode": 4,
       "inputs": [
         {
@@ -2804,7 +2740,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 24,
+      "order": 23,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2840,7 +2776,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 82,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -2881,7 +2817,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 105,
+      "order": 111,
       "mode": 4,
       "inputs": [
         {
@@ -2920,7 +2856,7 @@
         178
       ],
       "flags": {},
-      "order": 25,
+      "order": 24,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2954,7 +2890,7 @@
         158.7522735595703
       ],
       "flags": {},
-      "order": 26,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3003,7 +2939,7 @@
         246
       ],
       "flags": {},
-      "order": 57,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -3063,7 +2999,7 @@
         474
       ],
       "flags": {},
-      "order": 90,
+      "order": 95,
       "mode": 0,
       "inputs": [
         {
@@ -3103,7 +3039,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        775901604792190,
+        641262034897942,
         "randomize",
         47,
         2.97,
@@ -3126,7 +3062,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 27,
+      "order": 26,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -3151,46 +3087,6 @@
       ]
     },
     {
-      "id": 71,
-      "type": "Text Multiline",
-      "pos": [
-        -4955.4775390625,
-        1817.9066162109375
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 28,
-      "mode": 4,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            142
-          ]
-        }
-      ],
-      "title": "GPT Generated Object",
-      "properties": {
-        "cnr_id": "was-node-suite-comfyui",
-        "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
-        "Node name for S&R": "Text Multiline",
-        "aux_id": "WASasquatch/was-node-suite-comfyui",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "{\n  \"name\": \"Raven\",\n  \"skin_tone\": \"porcelain skin\",\n  \"hair_color\": \"jet black\",\n  \"hair_style\": \"very long hair cascading past her shoulders in sleek straight strands\",\n  \"eye_color\": \"light blue\",\n  \"eye_shape\": \"downturned\",\n  \"lips\": \"black lipstick\",\n  \"jawline\": \"rounded\",\n  \"bust\": \"huge bust\",\n  \"waist\": \"narrow waist\",\n  \"hips_thighs\": \"thick, wide thighs\"\n}"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 56,
       "type": "OpenposePreprocessor",
       "pos": [
@@ -3204,7 +3100,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 51,
+      "order": 54,
       "mode": 4,
       "inputs": [
         {
@@ -3256,7 +3152,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 29,
+      "order": 27,
       "mode": 4,
       "inputs": [
         {
@@ -3299,7 +3195,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 30,
+      "order": 28,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -3336,7 +3232,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 106,
+      "order": 112,
       "mode": 4,
       "inputs": [
         {
@@ -3394,7 +3290,7 @@
       },
       "widgets_values": [
         1.5000000000000002,
-        618065405959306,
+        845312884999234,
         "randomize",
         20,
         2,
@@ -3429,7 +3325,7 @@
         82
       ],
       "flags": {},
-      "order": 31,
+      "order": 29,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -3466,7 +3362,7 @@
         346
       ],
       "flags": {},
-      "order": 63,
+      "order": 66,
       "mode": 4,
       "inputs": [
         {
@@ -3537,164 +3433,6 @@
       "bgcolor": "#535"
     },
     {
-      "id": 124,
-      "type": "Lora Loader Stack (rgthree)",
-      "pos": [
-        -5050.5537109375,
-        405.1050720214844
-      ],
-      "size": [
-        271.8785095214844,
-        246
-      ],
-      "flags": {},
-      "order": 60,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 204
-        },
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 205
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            207
-          ]
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            206
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "rgthree-comfy",
-        "ver": "84a146fee39f7b3a8c6631dcac29bc13b077eb49",
-        "Node name for S&R": "Lora Loader Stack (rgthree)",
-        "aux_id": "rgthree/rgthree-comfy",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "Huge_natural_breasts_for_FLUX_v2.safetensors",
-        0.9000000000000001,
-        "AntiBlur.safetensors",
-        1.0000000000000002,
-        "None",
-        0.9000000000000001,
-        "None",
-        1
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 139,
-      "type": "Fast Bypasser (rgthree)",
-      "pos": [
-        -3339.144287109375,
-        1042.654052734375
-      ],
-      "size": [
-        263.6623840332031,
-        58
-      ],
-      "flags": {},
-      "order": 88,
-      "mode": 4,
-      "inputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "Pose ControlNet",
-          "type": "*",
-          "link": 233
-        },
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "label": " ",
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "Pose ControlNet Toggle",
-      "properties": {
-        "toggleRestriction": "default",
-        "widget_ue_connectable": {},
-        "collapse_connections": true
-      },
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 138,
-      "type": "Fast Bypasser (rgthree)",
-      "pos": [
-        -3010.36474609375,
-        1039.9234619140625
-      ],
-      "size": [
-        275.06591796875,
-        58
-      ],
-      "flags": {},
-      "order": 96,
-      "mode": 4,
-      "inputs": [
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "Depth ControlNet",
-          "type": "*",
-          "link": 232
-        },
-        {
-          "dir": 3,
-          "label": " ",
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "dir": 4,
-          "label": " ",
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "title": "Depth ControlNet Toggle",
-      "properties": {
-        "toggleRestriction": "default",
-        "widget_ue_connectable": {},
-        "collapse_connections": true
-      },
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 131,
       "type": "SamplerCustom",
       "pos": [
@@ -3706,7 +3444,7 @@
         442.00006103515625
       ],
       "flags": {},
-      "order": 97,
+      "order": 103,
       "mode": 4,
       "inputs": [
         {
@@ -3762,7 +3500,7 @@
       },
       "widgets_values": [
         true,
-        713669565821645,
+        423776396064414,
         "randomize",
         2.04
       ],
@@ -3781,7 +3519,7 @@
         186
       ],
       "flags": {},
-      "order": 76,
+      "order": 80,
       "mode": 4,
       "inputs": [
         {
@@ -3844,72 +3582,6 @@
       "bgcolor": "#353"
     },
     {
-      "id": 140,
-      "type": "ImpactSwitch",
-      "pos": [
-        -2959.3115234375,
-        -82.11202239990234
-      ],
-      "size": [
-        293.939208984375,
-        122.531982421875
-      ],
-      "flags": {},
-      "order": 64,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "input1",
-          "shape": 7,
-          "type": "*",
-          "link": 235
-        },
-        {
-          "name": "input2",
-          "type": "STRING",
-          "link": 254
-        },
-        {
-          "name": "input3",
-          "type": "STRING",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "label": "STRING",
-          "name": "selected_value",
-          "type": "*",
-          "links": [
-            234
-          ]
-        },
-        {
-          "name": "selected_label",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "name": "selected_index",
-          "type": "INT",
-          "links": null
-        }
-      ],
-      "title": "Prompt Selector (1 - GPT, 2 - Yours)",
-      "properties": {
-        "cnr_id": "comfyui-impact-pack",
-        "ver": "78d3793a774c221c9a1a8b0489d02aec57fb8221",
-        "Node name for S&R": "ImpactSwitch",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        1,
-        false
-      ],
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
       "id": 53,
       "type": "ControlNetApplyAdvanced",
       "pos": [
@@ -3921,7 +3593,7 @@
         186
       ],
       "flags": {},
-      "order": 89,
+      "order": 94,
       "mode": 4,
       "inputs": [
         {
@@ -3997,7 +3669,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 100,
+      "order": 106,
       "mode": 4,
       "inputs": [
         {
@@ -4035,7 +3707,7 @@
         178
       ],
       "flags": {},
-      "order": 32,
+      "order": 30,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4071,7 +3743,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 33,
+      "order": 31,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4107,7 +3779,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 103,
+      "order": 109,
       "mode": 4,
       "inputs": [
         {
@@ -4197,7 +3869,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 83,
+      "order": 86,
       "mode": 4,
       "inputs": [
         {
@@ -4238,7 +3910,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 34,
+      "order": 32,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4274,7 +3946,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 35,
+      "order": 33,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4308,7 +3980,7 @@
         739.4611206054688
       ],
       "flags": {},
-      "order": 62,
+      "order": 65,
       "mode": 4,
       "inputs": [
         {
@@ -4339,7 +4011,7 @@
         430
       ],
       "flags": {},
-      "order": 36,
+      "order": 34,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4364,44 +4036,8 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        "ComfyUI_temp_xmdpc_00002_.png",
+        "ComfyUI_temp_npvph_00002_.png",
         "image"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
-      "id": 160,
-      "type": "Text Multiline",
-      "pos": [
-        -3438.726318359375,
-        -115.90232849121094
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {},
-      "order": 37,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            254
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "was-node-suite-comfyui",
-        "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
-        "Node name for S&R": "Text Multiline",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        ""
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -4420,7 +4056,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 38,
+      "order": 35,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4443,49 +4079,6 @@
       "bgcolor": "#3f5159"
     },
     {
-      "id": 172,
-      "type": "SDXL Resolutions (JPS)",
-      "pos": [
-        -3408.674072265625,
-        -366.7019348144531
-      ],
-      "size": [
-        349.2713623046875,
-        81.73866271972656
-      ],
-      "flags": {},
-      "order": 39,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "width",
-          "type": "INT",
-          "links": [
-            281
-          ]
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": [
-            280
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "ComfyUI_JPS-Nodes",
-        "ver": "0e2a9aca02b17dde91577bfe4b65861df622dcaf",
-        "Node name for S&R": "SDXL Resolutions (JPS)",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "square - 1024x1024 (1:1)"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 173,
       "type": "SetNode",
       "pos": [
@@ -4499,7 +4092,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 66,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -4540,7 +4133,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 67,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -4623,60 +4216,6 @@
       ]
     },
     {
-      "id": 62,
-      "type": "JC",
-      "pos": [
-        -4440.73974609375,
-        1687.9063720703125
-      ],
-      "size": [
-        279.31475830078125,
-        174
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 71,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 278
-        },
-        {
-          "name": "extra_options",
-          "shape": 7,
-          "type": "JOYCAPTION_EXTRA_OPTIONS",
-          "link": 134
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            135,
-            138
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-joycaption",
-        "ver": "1.1.1",
-        "Node name for S&R": "JC",
-        "aux_id": "1038lab/ComfyUI-JoyCaption",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "joycaption-beta-one",
-        "Maximum Savings (4-bit)",
-        "Stable Diffusion Prompt",
-        "short",
-        "Clear After Run"
-      ]
-    },
-    {
       "id": 67,
       "type": "PrimitiveString",
       "pos": [
@@ -4688,7 +4227,7 @@
         60.570289611816406
       ],
       "flags": {},
-      "order": 40,
+      "order": 36,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4725,7 +4264,7 @@
         106
       ],
       "flags": {},
-      "order": 59,
+      "order": 62,
       "mode": 4,
       "inputs": [
         {
@@ -4771,7 +4310,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 41,
+      "order": 37,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4807,7 +4346,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 42,
+      "order": 38,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4843,7 +4382,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 43,
+      "order": 39,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4931,7 +4470,7 @@
         106
       ],
       "flags": {},
-      "order": 54,
+      "order": 57,
       "mode": 4,
       "inputs": [
         {
@@ -4991,7 +4530,7 @@
         739.4611206054688
       ],
       "flags": {},
-      "order": 61,
+      "order": 64,
       "mode": 4,
       "inputs": [
         {
@@ -5022,7 +4561,7 @@
         739.4611206054688
       ],
       "flags": {},
-      "order": 65,
+      "order": 67,
       "mode": 4,
       "inputs": [
         {
@@ -5053,7 +4592,7 @@
         370.1405334472656
       ],
       "flags": {},
-      "order": 44,
+      "order": 40,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -5085,40 +4624,6 @@
       "bgcolor": "#353"
     },
     {
-      "id": 115,
-      "type": "Fast Groups Bypasser (rgthree)",
-      "pos": [
-        -2980.849365234375,
-        -422.1230163574219
-      ],
-      "size": [
-        331.9339904785156,
-        178
-      ],
-      "flags": {},
-      "order": 45,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "OPT_CONNECTION",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "properties": {
-        "matchColors": "brown",
-        "matchTitle": "",
-        "showNav": true,
-        "sort": "alphanumeric",
-        "customSortAlphabet": "",
-        "toggleRestriction": "default",
-        "widget_ue_connectable": {}
-      },
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
       "id": 40,
       "type": "CLIPTextEncode",
       "pos": [
@@ -5130,7 +4635,7 @@
         200
       ],
       "flags": {},
-      "order": 58,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -5159,6 +4664,804 @@
       ],
       "color": "#232",
       "bgcolor": "#353"
+    },
+    {
+      "id": 139,
+      "type": "Fast Bypasser (rgthree)",
+      "pos": [
+        -3339.144287109375,
+        1042.654052734375
+      ],
+      "size": [
+        263.6623840332031,
+        58
+      ],
+      "flags": {},
+      "order": 93,
+      "mode": 4,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "Pose ControlNet",
+          "type": "*",
+          "link": 233
+        },
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "label": " ",
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "Pose ControlNet Toggle",
+      "properties": {
+        "toggleRestriction": "default",
+        "widget_ue_connectable": {},
+        "collapse_connections": true
+      },
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 138,
+      "type": "Fast Bypasser (rgthree)",
+      "pos": [
+        -3010.36474609375,
+        1039.9234619140625
+      ],
+      "size": [
+        275.06591796875,
+        58
+      ],
+      "flags": {},
+      "order": 102,
+      "mode": 4,
+      "inputs": [
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "Depth ControlNet",
+          "type": "*",
+          "link": 232
+        },
+        {
+          "dir": 3,
+          "label": " ",
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "label": " ",
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "Depth ControlNet Toggle",
+      "properties": {
+        "toggleRestriction": "default",
+        "widget_ue_connectable": {},
+        "collapse_connections": true
+      },
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 62,
+      "type": "JC",
+      "pos": [
+        -4440.73974609375,
+        1687.9063720703125
+      ],
+      "size": [
+        279.31475830078125,
+        174
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 71,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 278
+        },
+        {
+          "name": "extra_options",
+          "shape": 7,
+          "type": "JOYCAPTION_EXTRA_OPTIONS",
+          "link": 134
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            135,
+            138
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-joycaption",
+        "ver": "1.1.1",
+        "Node name for S&R": "JC",
+        "aux_id": "1038lab/ComfyUI-JoyCaption",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "joycaption-beta-one",
+        "Maximum Savings (4-bit)",
+        "Stable Diffusion Prompt",
+        "short",
+        "Clear After Run"
+      ]
+    },
+    {
+      "id": 63,
+      "type": "JC_ExtraOptions",
+      "pos": [
+        -4485.4775390625,
+        1647.9066162109375
+      ],
+      "size": [
+        400,
+        736
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 41,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "extra_options",
+          "type": "JOYCAPTION_EXTRA_OPTIONS",
+          "links": [
+            134
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-joycaption",
+        "ver": "1.1.1",
+        "Node name for S&R": "JC_ExtraOptions",
+        "aux_id": "1038lab/ComfyUI-JoyCaption",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        ""
+      ]
+    },
+    {
+      "id": 180,
+      "type": "JC",
+      "pos": [
+        -2095.757080078125,
+        -196.81674194335938
+      ],
+      "size": [
+        279.31475830078125,
+        174
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 75,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 285
+        },
+        {
+          "name": "extra_options",
+          "shape": 7,
+          "type": "JOYCAPTION_EXTRA_OPTIONS",
+          "link": 284
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            287
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-joycaption",
+        "ver": "1.1.1",
+        "Node name for S&R": "JC",
+        "widget_ue_connectable": {},
+        "aux_id": "1038lab/ComfyUI-JoyCaption"
+      },
+      "widgets_values": [
+        "joycaption-beta-one",
+        "Maximum Savings (4-bit)",
+        "Stable Diffusion Prompt",
+        "short",
+        "Clear After Run"
+      ]
+    },
+    {
+      "id": 179,
+      "type": "JC_ExtraOptions",
+      "pos": [
+        -2061.513916015625,
+        -313.1706237792969
+      ],
+      "size": [
+        400,
+        736
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 42,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "extra_options",
+          "type": "JOYCAPTION_EXTRA_OPTIONS",
+          "links": [
+            284
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-joycaption",
+        "ver": "1.1.1",
+        "Node name for S&R": "JC_ExtraOptions",
+        "widget_ue_connectable": {},
+        "aux_id": "1038lab/ComfyUI-JoyCaption"
+      },
+      "widgets_values": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        ""
+      ]
+    },
+    {
+      "id": 181,
+      "type": "Text Concatenate",
+      "pos": [
+        -2044.099365234375,
+        -255.94277954101562
+      ],
+      "size": [
+        270,
+        142
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 90,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "text_a",
+          "shape": 7,
+          "type": "STRING",
+          "link": 286
+        },
+        {
+          "name": "text_b",
+          "shape": 7,
+          "type": "STRING",
+          "link": 287
+        },
+        {
+          "name": "text_c",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        },
+        {
+          "name": "text_d",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            288
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
+        "Node name for S&R": "Text Concatenate",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        ", ",
+        "true"
+      ]
+    },
+    {
+      "id": 182,
+      "type": "SaveImageKJ",
+      "pos": [
+        -1705.33056640625,
+        -382.1873474121094
+      ],
+      "size": [
+        282.751953125,
+        126
+      ],
+      "flags": {},
+      "order": 98,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 289
+        },
+        {
+          "name": "caption",
+          "shape": 7,
+          "type": "STRING",
+          "link": 288
+        }
+      ],
+      "outputs": [
+        {
+          "name": "filename",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "aeab1a7de581dc7253f48257392e8287bbeee4a9",
+        "Node name for S&R": "SaveImageKJ",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "ComfyUI",
+        "output",
+        ".txt"
+      ]
+    },
+    {
+      "id": 71,
+      "type": "Text Multiline",
+      "pos": [
+        -4955.4775390625,
+        1817.9066162109375
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 43,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            142
+          ]
+        }
+      ],
+      "title": "GPT Generated Object",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
+        "Node name for S&R": "Text Multiline",
+        "aux_id": "WASasquatch/was-node-suite-comfyui",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 160,
+      "type": "Text Multiline",
+      "pos": [
+        -3438.726318359375,
+        -115.90232849121094
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 44,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            254
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
+        "Node name for S&R": "Text Multiline",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 140,
+      "type": "ImpactSwitch",
+      "pos": [
+        -2959.3115234375,
+        -82.11202239990234
+      ],
+      "size": [
+        293.939208984375,
+        122.531982421875
+      ],
+      "flags": {},
+      "order": 72,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "input1",
+          "shape": 7,
+          "type": "*",
+          "link": 235
+        },
+        {
+          "name": "input2",
+          "type": "STRING",
+          "link": 254
+        },
+        {
+          "name": "input3",
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "STRING",
+          "name": "selected_value",
+          "type": "*",
+          "links": [
+            234
+          ]
+        },
+        {
+          "name": "selected_label",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "selected_index",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "title": "Prompt Selector (1 - GPT, 2 - Yours)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "78d3793a774c221c9a1a8b0489d02aec57fb8221",
+        "Node name for S&R": "ImpactSwitch",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        1,
+        false
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 172,
+      "type": "SDXL Resolutions (JPS)",
+      "pos": [
+        -3403.155029296875,
+        -361.77020263671875
+      ],
+      "size": [
+        349.2713623046875,
+        81.73866271972656
+      ],
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": [
+            281
+          ]
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": [
+            280
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI_JPS-Nodes",
+        "ver": "0e2a9aca02b17dde91577bfe4b65861df622dcaf",
+        "Node name for S&R": "SDXL Resolutions (JPS)",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "square - 1024x1024 (1:1)"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 177,
+      "type": "LoadImage",
+      "pos": [
+        -2397.57373046875,
+        -245.16384887695312
+      ],
+      "size": [
+        274.080078125,
+        314
+      ],
+      "flags": {},
+      "order": 46,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            285,
+            289
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.40",
+        "Node name for S&R": "LoadImage",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "ComfyUI_temp_cbdmk_00005_.png",
+        "image"
+      ]
+    },
+    {
+      "id": 178,
+      "type": "Text Multiline",
+      "pos": [
+        -2380.47314453125,
+        -405.20458984375
+      ],
+      "size": [
+        225.50547790527344,
+        92.96491241455078
+      ],
+      "flags": {},
+      "order": 47,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            286
+          ]
+        }
+      ],
+      "title": "Character Name",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
+        "Node name for S&R": "Text Multiline",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 115,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": [
+        -2980.849365234375,
+        -422.1230163574219
+      ],
+      "size": [
+        331.9339904785156,
+        178
+      ],
+      "flags": {},
+      "order": 48,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "matchColors": "brown",
+        "matchTitle": "",
+        "showNav": true,
+        "sort": "alphanumeric",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default",
+        "widget_ue_connectable": {}
+      },
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 124,
+      "type": "Lora Loader Stack (rgthree)",
+      "pos": [
+        -5050.5537109375,
+        405.1050720214844
+      ],
+      "size": [
+        271.8785095214844,
+        246
+      ],
+      "flags": {},
+      "order": 63,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 204
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 205
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            207
+          ]
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            206
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "84a146fee39f7b3a8c6631dcac29bc13b077eb49",
+        "Node name for S&R": "Lora Loader Stack (rgthree)",
+        "aux_id": "rgthree/rgthree-comfy",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "None",
+        0.9000000000000001,
+        "None",
+        1.0000000000000002,
+        "None",
+        0.9000000000000001,
+        "None",
+        1
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
     }
   ],
   "links": [
@@ -6105,6 +6408,54 @@
       14,
       0,
       "INT"
+    ],
+    [
+      284,
+      179,
+      0,
+      180,
+      1,
+      "JOYCAPTION_EXTRA_OPTIONS"
+    ],
+    [
+      285,
+      177,
+      0,
+      180,
+      0,
+      "IMAGE"
+    ],
+    [
+      286,
+      178,
+      0,
+      181,
+      0,
+      "STRING"
+    ],
+    [
+      287,
+      180,
+      0,
+      181,
+      1,
+      "STRING"
+    ],
+    [
+      288,
+      181,
+      0,
+      182,
+      1,
+      "STRING"
+    ],
+    [
+      289,
+      177,
+      0,
+      182,
+      0,
+      "IMAGE"
     ]
   ],
   "groups": [
@@ -6237,16 +6588,29 @@
       "color": "#3f789e",
       "font_size": 24,
       "flags": {}
+    },
+    {
+      "id": 12,
+      "title": "3 - LoRA Captions",
+      "bounding": [
+        -2435.763916015625,
+        -517.2807006835938,
+        1774.4453125,
+        646.662353515625
+      ],
+      "color": "#b06634",
+      "font_size": 24,
+      "flags": {}
     }
   ],
   "config": {},
   "extra": {
     "ue_links": [],
     "ds": {
-      "scale": 0.797202450000004,
+      "scale": 0.724729500000006,
       "offset": [
-        5425.47009167069,
-        477.2405931426363
+        4074.103288205333,
+        731.1522549932344
       ]
     },
     "links_added_by_ue": [],
