@@ -336,7 +336,7 @@
           "widget": {
             "name": "width"
           },
-          "link": 83
+          "link": 82
         },
         {
           "name": "height",
@@ -344,7 +344,7 @@
           "widget": {
             "name": "height"
           },
-          "link": 82
+          "link": 83
         }
       ],
       "outputs": [
