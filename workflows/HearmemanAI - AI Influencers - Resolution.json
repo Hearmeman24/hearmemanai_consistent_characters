@@ -2,7 +2,7 @@
   "id": "0d96d67f-8b9d-460d-bd50-1bd5bc23b8a4",
   "revision": 0,
   "last_node_id": 182,
-  "last_link_id": 289,
+  "last_link_id": 290,
   "nodes": [
     {
       "id": 30,
@@ -104,10 +104,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-impact-pack",
+        "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
         "ver": "2346b677666e14ad53a6e65e16a33289a78106c7",
         "Node name for S&R": "FromBasicPipe_v2",
-        "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
+        "cnr_id": "comfyui-impact-pack",
         "widget_ue_connectable": {}
       },
       "widgets_values": []
@@ -126,7 +126,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 100,
+      "order": 99,
       "mode": 4,
       "inputs": [
         {
@@ -168,7 +168,7 @@
         88
       ],
       "flags": {},
-      "order": 101,
+      "order": 100,
       "mode": 4,
       "inputs": [
         {
@@ -252,7 +252,7 @@
         46
       ],
       "flags": {},
-      "order": 104,
+      "order": 103,
       "mode": 0,
       "inputs": [
         {
@@ -295,7 +295,7 @@
         258
       ],
       "flags": {},
-      "order": 107,
+      "order": 106,
       "mode": 0,
       "inputs": [
         {
@@ -369,49 +369,6 @@
       ]
     },
     {
-      "id": 49,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        -1493.288330078125,
-        940.37158203125
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 92,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 95
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            96
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.39",
-        "Node name for S&R": "LoraLoaderModelOnly",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "Super_Eye_Detailer_By_Stable_Yogi_SDPD0.safetensors",
-        0.3500000000000001
-      ]
-    },
-    {
       "id": 69,
       "type": "Text Multiline",
       "pos": [
@@ -439,10 +396,10 @@
       ],
       "title": "Context",
       "properties": {
-        "cnr_id": "was-node-suite-comfyui",
+        "aux_id": "WASasquatch/was-node-suite-comfyui",
         "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
         "Node name for S&R": "Text Multiline",
-        "aux_id": "WASasquatch/was-node-suite-comfyui",
+        "cnr_id": "was-node-suite-comfyui",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -463,7 +420,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 97,
+      "order": 96,
       "mode": 4,
       "inputs": [
         {
@@ -521,10 +478,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-mixlab-nodes",
+        "aux_id": "shadowcz007/comfyui-mixlab-nodes",
         "ver": "b2bb1876def6330fccf1e03cc69d2166cae7bedb",
         "Node name for S&R": "ChatGPTOpenAI",
-        "aux_id": "shadowcz007/comfyui-mixlab-nodes",
+        "cnr_id": "comfyui-mixlab-nodes",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -564,10 +521,10 @@
       "outputs": [],
       "title": "Joy-Caption Generated Prompt",
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "b775441a4c5ae2853d4ff6b97a137f7f7d11e597",
         "Node name for S&R": "Display Any (rgthree)",
-        "aux_id": "rgthree/rgthree-comfy",
+        "cnr_id": "rgthree-comfy",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -1048,7 +1005,7 @@
           "name": "model",
           "type": "MODEL",
           "links": [
-            95
+            290
           ]
         },
         {
@@ -1079,10 +1036,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-impact-pack",
+        "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
         "ver": "2346b677666e14ad53a6e65e16a33289a78106c7",
         "Node name for S&R": "FromBasicPipe_v2",
-        "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
+        "cnr_id": "comfyui-impact-pack",
         "widget_ue_connectable": {}
       },
       "widgets_values": []
@@ -1101,7 +1058,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 113,
+      "order": 112,
       "mode": 4,
       "inputs": [
         {
@@ -1140,7 +1097,7 @@
         46
       ],
       "flags": {},
-      "order": 118,
+      "order": 117,
       "mode": 4,
       "inputs": [
         {
@@ -1185,7 +1142,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 119,
+      "order": 118,
       "mode": 4,
       "inputs": [
         {
@@ -1289,10 +1246,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "ComfyUI_JPS-Nodes",
+        "aux_id": "JPS-GER/ComfyUI_JPS-Nodes",
         "ver": "0e2a9aca02b17dde91577bfe4b65861df622dcaf",
         "Node name for S&R": "SDXL Resolutions (JPS)",
-        "aux_id": "JPS-GER/ComfyUI_JPS-Nodes",
+        "cnr_id": "ComfyUI_JPS-Nodes",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -1326,10 +1283,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "ComfyUI-PuLID-Flux-Enhanced",
+        "aux_id": "sipie800/ComfyUI-PuLID-Flux-Enhanced",
         "ver": "04e1b52320f1f14383afe18959349703623c5b88",
         "Node name for S&R": "PulidFluxEvaClipLoader",
-        "aux_id": "sipie800/ComfyUI-PuLID-Flux-Enhanced",
+        "cnr_id": "ComfyUI-PuLID-Flux-Enhanced",
         "widget_ue_connectable": {}
       },
       "widgets_values": []
@@ -1368,10 +1325,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-kjnodes",
+        "aux_id": "kijai/ComfyUI-KJNodes",
         "ver": "9682804efb2e7caeafcca9431c94a38163e8ceb8",
         "Node name for S&R": "ModelPassThrough",
-        "aux_id": "kijai/ComfyUI-KJNodes",
+        "cnr_id": "comfyui-kjnodes",
         "widget_ue_connectable": {}
       },
       "widgets_values": []
@@ -1390,7 +1347,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 96,
+      "order": 95,
       "mode": 4,
       "inputs": [
         {
@@ -1449,10 +1406,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "was-node-suite-comfyui",
+        "aux_id": "WASasquatch/was-node-suite-comfyui",
         "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
         "Node name for S&R": "Upscale Model Loader",
-        "aux_id": "WASasquatch/was-node-suite-comfyui",
+        "cnr_id": "was-node-suite-comfyui",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -1870,10 +1827,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui_controlnet_aux",
+        "aux_id": "Fannovel16/comfyui_controlnet_aux",
         "ver": "7c4f6fb6ff18aa6dbfd4f77c2e8ad46119b5d84d",
         "Node name for S&R": "DepthAnythingV2Preprocessor",
-        "aux_id": "Fannovel16/comfyui_controlnet_aux",
+        "cnr_id": "comfyui_controlnet_aux",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -1914,10 +1871,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-detail-daemon",
+        "aux_id": "Jonseed/ComfyUI-Detail-Daemon",
         "ver": "f391accbda2d309cdcbec65cb9fcc80a41197b20",
         "Node name for S&R": "DetailDaemonSamplerNode",
-        "aux_id": "Jonseed/ComfyUI-Detail-Daemon",
+        "cnr_id": "comfyui-detail-daemon",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -2035,10 +1992,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "ComfyUI-PuLID-Flux-Enhanced",
+        "aux_id": "sipie800/ComfyUI-PuLID-Flux-Enhanced",
         "ver": "04e1b52320f1f14383afe18959349703623c5b88",
         "Node name for S&R": "PulidFluxModelLoader",
-        "aux_id": "sipie800/ComfyUI-PuLID-Flux-Enhanced",
+        "cnr_id": "ComfyUI-PuLID-Flux-Enhanced",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -2103,10 +2060,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-impact-pack",
+        "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
         "ver": "2346b677666e14ad53a6e65e16a33289a78106c7",
         "Node name for S&R": "FromBasicPipe_v2",
-        "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
+        "cnr_id": "comfyui-impact-pack",
         "widget_ue_connectable": {}
       },
       "widgets_values": []
@@ -2125,7 +2082,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 115,
+      "order": 114,
       "mode": 4,
       "inputs": [
         {
@@ -2168,7 +2125,7 @@
         46
       ],
       "flags": {},
-      "order": 116,
+      "order": 115,
       "mode": 4,
       "inputs": [
         {
@@ -2213,7 +2170,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 114,
+      "order": 113,
       "mode": 4,
       "inputs": [
         {
@@ -2237,10 +2194,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "ComfyUI_LayerStyle_Advance",
+        "aux_id": "chflame163/ComfyUI_LayerStyle_Advance",
         "ver": "0f9184100e626e3202568a7cf890b3b92685a168",
         "Node name for S&R": "LayerMask: PersonMaskUltra V2",
-        "aux_id": "chflame163/ComfyUI_LayerStyle_Advance",
+        "cnr_id": "ComfyUI_LayerStyle_Advance",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -2276,7 +2233,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 108,
+      "order": 107,
       "mode": 4,
       "inputs": [
         {
@@ -2295,9 +2252,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-easy-use",
+        "aux_id": "yolain/ComfyUI-Easy-Use",
         "ver": "71c7865d2d3c934ccb99f24171e08ae5a81148ac",
         "Node name for S&R": "easy cleanGpuUsed",
+        "cnr_id": "comfyui-easy-use",
         "widget_ue_connectable": {}
       },
       "widgets_values": []
@@ -2314,7 +2272,7 @@
         442
       ],
       "flags": {},
-      "order": 117,
+      "order": 116,
       "mode": 4,
       "inputs": [
         {
@@ -2389,7 +2347,7 @@
         106
       ],
       "flags": {},
-      "order": 99,
+      "order": 98,
       "mode": 4,
       "inputs": [
         {
@@ -2446,10 +2404,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "ComfyUI-PuLID-Flux-Enhanced",
+        "aux_id": "sipie800/ComfyUI-PuLID-Flux-Enhanced",
         "ver": "04e1b52320f1f14383afe18959349703623c5b88",
         "Node name for S&R": "PulidFluxInsightFaceLoader",
-        "aux_id": "sipie800/ComfyUI-PuLID-Flux-Enhanced",
+        "cnr_id": "ComfyUI-PuLID-Flux-Enhanced",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -2547,7 +2505,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 110,
+      "order": 109,
       "mode": 4,
       "inputs": [
         {
@@ -2622,7 +2580,7 @@
         304.8132019042969
       ],
       "flags": {},
-      "order": 105,
+      "order": 104,
       "mode": 4,
       "inputs": [
         {
@@ -2642,10 +2600,10 @@
       ],
       "title": "Final ChatGPT Prompt",
       "properties": {
-        "cnr_id": "comfyui_essentials",
+        "aux_id": "cubiq/ComfyUI_essentials",
         "ver": "9d9f4bedfc9f0321c19faf71855e228c93bd0dc9",
         "Node name for S&R": "DisplayAny",
-        "aux_id": "cubiq/ComfyUI_essentials",
+        "cnr_id": "comfyui_essentials",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -2711,10 +2669,10 @@
       ],
       "title": "Prompt Maker",
       "properties": {
-        "cnr_id": "ComfyUI_Comfyroll_CustomNodes",
+        "aux_id": "Suzie1/ComfyUI_Comfyroll_CustomNodes",
         "ver": "d78b780ae43fcf8c6b7c6505e6ffb4584281ceca",
         "Node name for S&R": "CR Text Replace",
-        "aux_id": "Suzie1/ComfyUI_Comfyroll_CustomNodes",
+        "cnr_id": "ComfyUI_Comfyroll_CustomNodes",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -2817,7 +2775,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 111,
+      "order": 110,
       "mode": 4,
       "inputs": [
         {
@@ -2970,10 +2928,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "b775441a4c5ae2853d4ff6b97a137f7f7d11e597",
         "Node name for S&R": "Lora Loader Stack (rgthree)",
-        "aux_id": "rgthree/rgthree-comfy",
+        "cnr_id": "rgthree-comfy",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -2999,7 +2957,7 @@
         474
       ],
       "flags": {},
-      "order": 95,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -3076,10 +3034,10 @@
       ],
       "title": "System Prompt",
       "properties": {
-        "cnr_id": "was-node-suite-comfyui",
+        "aux_id": "WASasquatch/was-node-suite-comfyui",
         "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
         "Node name for S&R": "Text Multiline",
-        "aux_id": "WASasquatch/was-node-suite-comfyui",
+        "cnr_id": "was-node-suite-comfyui",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -3124,10 +3082,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui_controlnet_aux",
+        "aux_id": "Fannovel16/comfyui_controlnet_aux",
         "ver": "7c4f6fb6ff18aa6dbfd4f77c2e8ad46119b5d84d",
         "Node name for S&R": "OpenposePreprocessor",
-        "aux_id": "Fannovel16/comfyui_controlnet_aux",
+        "cnr_id": "comfyui_controlnet_aux",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -3217,101 +3175,6 @@
       ],
       "color": "#223",
       "bgcolor": "#335"
-    },
-    {
-      "id": 16,
-      "type": "UltimateSDUpscale",
-      "pos": [
-        -1606.479736328125,
-        423.6676330566406
-      ],
-      "size": [
-        314.14324951171875,
-        826
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 112,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 272
-        },
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 96
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 63
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 64
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 65
-        },
-        {
-          "name": "upscale_model",
-          "type": "UPSCALE_MODEL",
-          "link": 209
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "slot_index": 0,
-          "links": [
-            187,
-            216,
-            217
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui_ultimatesdupscale",
-        "ver": "8642daf6281e4ebbdf2daca18539c0ab6c2c63f4",
-        "Node name for S&R": "UltimateSDUpscale",
-        "aux_id": "ssitu/ComfyUI_UltimateSDUpscale",
-        "widget_ue_connectable": {
-          "tile_height": false,
-          "tile_width": false
-        }
-      },
-      "widgets_values": [
-        1.5000000000000002,
-        845312884999234,
-        "randomize",
-        20,
-        2,
-        "dpmpp_2m",
-        "beta",
-        0.33000000000000007,
-        "Chess",
-        1024,
-        1024,
-        8,
-        32,
-        "None",
-        1,
-        64,
-        8,
-        16,
-        true,
-        false
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
     },
     {
       "id": 121,
@@ -3413,10 +3276,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "ComfyUI-PuLID-Flux-Enhanced",
+        "aux_id": "sipie800/ComfyUI-PuLID-Flux-Enhanced",
         "ver": "04e1b52320f1f14383afe18959349703623c5b88",
         "Node name for S&R": "ApplyPulidFlux",
-        "aux_id": "sipie800/ComfyUI-PuLID-Flux-Enhanced",
+        "cnr_id": "ComfyUI-PuLID-Flux-Enhanced",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -3444,7 +3307,7 @@
         442.00006103515625
       ],
       "flags": {},
-      "order": 103,
+      "order": 102,
       "mode": 4,
       "inputs": [
         {
@@ -3593,7 +3456,7 @@
         186
       ],
       "flags": {},
-      "order": 94,
+      "order": 93,
       "mode": 4,
       "inputs": [
         {
@@ -3669,7 +3532,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 106,
+      "order": 105,
       "mode": 4,
       "inputs": [
         {
@@ -3688,9 +3551,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-easy-use",
+        "aux_id": "yolain/ComfyUI-Easy-Use",
         "ver": "71c7865d2d3c934ccb99f24171e08ae5a81148ac",
         "Node name for S&R": "easy cleanGpuUsed",
+        "cnr_id": "comfyui-easy-use",
         "widget_ue_connectable": {}
       },
       "widgets_values": []
@@ -3779,7 +3643,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 109,
+      "order": 108,
       "mode": 4,
       "inputs": [
         {
@@ -3844,10 +3708,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "mikey_nodes",
+        "aux_id": "bash-j/mikey_nodes",
         "ver": "1.0.4",
         "Node name for S&R": "Resize Image for SDXL",
-        "aux_id": "bash-j/mikey_nodes",
+        "cnr_id": "mikey_nodes",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -4439,10 +4303,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-detail-daemon",
+        "aux_id": "Jonseed/ComfyUI-Detail-Daemon",
         "ver": "f391accbda2d309cdcbec65cb9fcc80a41197b20",
         "Node name for S&R": "DetailDaemonSamplerNode",
-        "aux_id": "Jonseed/ComfyUI-Detail-Daemon",
+        "cnr_id": "comfyui-detail-daemon",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -4510,10 +4374,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-impact-pack",
+        "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
         "ver": "2346b677666e14ad53a6e65e16a33289a78106c7",
         "Node name for S&R": "ToBasicPipe",
-        "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
+        "cnr_id": "comfyui-impact-pack",
         "widget_ue_connectable": {}
       },
       "widgets_values": []
@@ -4677,7 +4541,7 @@
         58
       ],
       "flags": {},
-      "order": 93,
+      "order": 92,
       "mode": 4,
       "inputs": [
         {
@@ -4725,7 +4589,7 @@
         58
       ],
       "flags": {},
-      "order": 102,
+      "order": 101,
       "mode": 4,
       "inputs": [
         {
@@ -4801,10 +4665,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-joycaption",
+        "aux_id": "1038lab/ComfyUI-JoyCaption",
         "ver": "1.1.1",
         "Node name for S&R": "JC",
-        "aux_id": "1038lab/ComfyUI-JoyCaption",
+        "cnr_id": "comfyui-joycaption",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -4842,10 +4706,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-joycaption",
+        "aux_id": "1038lab/ComfyUI-JoyCaption",
         "ver": "1.1.1",
         "Node name for S&R": "JC_ExtraOptions",
-        "aux_id": "1038lab/ComfyUI-JoyCaption",
+        "cnr_id": "comfyui-joycaption",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -4918,11 +4782,11 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-joycaption",
+        "aux_id": "1038lab/ComfyUI-JoyCaption",
         "ver": "1.1.1",
         "Node name for S&R": "JC",
-        "widget_ue_connectable": {},
-        "aux_id": "1038lab/ComfyUI-JoyCaption"
+        "cnr_id": "comfyui-joycaption",
+        "widget_ue_connectable": {}
       },
       "widgets_values": [
         "joycaption-beta-one",
@@ -4959,11 +4823,11 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-joycaption",
+        "aux_id": "1038lab/ComfyUI-JoyCaption",
         "ver": "1.1.1",
         "Node name for S&R": "JC_ExtraOptions",
-        "widget_ue_connectable": {},
-        "aux_id": "1038lab/ComfyUI-JoyCaption"
+        "cnr_id": "comfyui-joycaption",
+        "widget_ue_connectable": {}
       },
       "widgets_values": [
         true,
@@ -5048,9 +4912,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "was-node-suite-comfyui",
+        "aux_id": "WASasquatch/was-node-suite-comfyui",
         "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
         "Node name for S&R": "Text Concatenate",
+        "cnr_id": "was-node-suite-comfyui",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -5070,7 +4935,7 @@
         126
       ],
       "flags": {},
-      "order": 98,
+      "order": 97,
       "mode": 4,
       "inputs": [
         {
@@ -5093,9 +4958,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-kjnodes",
+        "aux_id": "kijai/ComfyUI-KJNodes",
         "ver": "aeab1a7de581dc7253f48257392e8287bbeee4a9",
         "Node name for S&R": "SaveImageKJ",
+        "cnr_id": "comfyui-kjnodes",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -5132,10 +4998,10 @@
       ],
       "title": "GPT Generated Object",
       "properties": {
-        "cnr_id": "was-node-suite-comfyui",
+        "aux_id": "WASasquatch/was-node-suite-comfyui",
         "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
         "Node name for S&R": "Text Multiline",
-        "aux_id": "WASasquatch/was-node-suite-comfyui",
+        "cnr_id": "was-node-suite-comfyui",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -5169,9 +5035,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "was-node-suite-comfyui",
+        "aux_id": "WASasquatch/was-node-suite-comfyui",
         "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
         "Node name for S&R": "Text Multiline",
+        "cnr_id": "was-node-suite-comfyui",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -5234,9 +5101,10 @@
       ],
       "title": "Prompt Selector (1 - GPT, 2 - Yours)",
       "properties": {
-        "cnr_id": "comfyui-impact-pack",
+        "aux_id": "ltdrdata/ComfyUI-Impact-Pack",
         "ver": "78d3793a774c221c9a1a8b0489d02aec57fb8221",
         "Node name for S&R": "ImpactSwitch",
+        "cnr_id": "comfyui-impact-pack",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -5278,9 +5146,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "ComfyUI_JPS-Nodes",
+        "aux_id": "JPS-GER/ComfyUI_JPS-Nodes",
         "ver": "0e2a9aca02b17dde91577bfe4b65861df622dcaf",
         "Node name for S&R": "SDXL Resolutions (JPS)",
+        "cnr_id": "ComfyUI_JPS-Nodes",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -5356,9 +5225,10 @@
       ],
       "title": "Character Name",
       "properties": {
-        "cnr_id": "was-node-suite-comfyui",
+        "aux_id": "WASasquatch/was-node-suite-comfyui",
         "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
         "Node name for S&R": "Text Multiline",
+        "cnr_id": "was-node-suite-comfyui",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -5444,10 +5314,10 @@
         }
       ],
       "properties": {
-        "cnr_id": "rgthree-comfy",
+        "aux_id": "rgthree/rgthree-comfy",
         "ver": "84a146fee39f7b3a8c6631dcac29bc13b077eb49",
         "Node name for S&R": "Lora Loader Stack (rgthree)",
-        "aux_id": "rgthree/rgthree-comfy",
+        "cnr_id": "rgthree-comfy",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
@@ -5462,6 +5332,101 @@
       ],
       "color": "#323",
       "bgcolor": "#535"
+    },
+    {
+      "id": 16,
+      "type": "UltimateSDUpscale",
+      "pos": [
+        -1604.3504638671875,
+        425.32025146484375
+      ],
+      "size": [
+        314.14324951171875,
+        826
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 111,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 272
+        },
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 290
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 63
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 64
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 65
+        },
+        {
+          "name": "upscale_model",
+          "type": "UPSCALE_MODEL",
+          "link": 209
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            187,
+            216,
+            217
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "ssitu/ComfyUI_UltimateSDUpscale",
+        "ver": "8642daf6281e4ebbdf2daca18539c0ab6c2c63f4",
+        "Node name for S&R": "UltimateSDUpscale",
+        "cnr_id": "comfyui_ultimatesdupscale",
+        "widget_ue_connectable": {
+          "tile_height": false,
+          "tile_width": false
+        }
+      },
+      "widgets_values": [
+        1.5000000000000002,
+        845312884999234,
+        "randomize",
+        20,
+        2,
+        "dpmpp_2m",
+        "beta",
+        0.33000000000000007,
+        "Chess",
+        1024,
+        1024,
+        8,
+        32,
+        "None",
+        1,
+        64,
+        8,
+        16,
+        true,
+        false
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
     }
   ],
   "links": [
@@ -5686,7 +5651,7 @@
       44,
       1,
       43,
-      1,
+      0,
       "INT"
     ],
     [
@@ -5694,7 +5659,7 @@
       44,
       0,
       43,
-      0,
+      1,
       "INT"
     ],
     [
@@ -5744,22 +5709,6 @@
       42,
       3,
       "LATENT"
-    ],
-    [
-      95,
-      33,
-      1,
-      49,
-      0,
-      "MODEL"
-    ],
-    [
-      96,
-      49,
-      0,
-      16,
-      1,
-      "MODEL"
     ],
     [
       104,
@@ -6456,6 +6405,14 @@
       182,
       0,
       "IMAGE"
+    ],
+    [
+      290,
+      33,
+      1,
+      16,
+      1,
+      "MODEL"
     ]
   ],
   "groups": [
@@ -6607,10 +6564,10 @@
   "extra": {
     "ue_links": [],
     "ds": {
-      "scale": 0.724729500000006,
+      "scale": 0.8769226950000005,
       "offset": [
-        4074.103288205333,
-        731.1522549932344
+        3561.6317910849975,
+        -394.9017175244347
       ]
     },
     "links_added_by_ue": [],
